@@ -6,6 +6,10 @@ This api demonstrate how we can use pgp protocol to send and recieve text messag
 
 PGP is used for signing, encrypting, and decrypting texts, e-mails, files, directories, and whole disk partitions and to increase the security of e-mail communications
 
+<p align="center">
+ <img width="600px" src="https://res.cloudinary.com/ydevcloud/image/upload/v1655741791/rhyzcnqopulxgngr1mek.jpg" align="center" alt="oneAvatar" />
+</p>
+
 ## Installation
 
 API requires [Node.js](https://nodejs.org/) v14+ to run.
