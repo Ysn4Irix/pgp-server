@@ -2,7 +2,7 @@
  * @author Ysn4Irix
  * @email ysn4irix@gmail.com
  * @create date 17-09-2021
- * @modify date 23-09-2021
+ * @modify date 20-06-2022
  * @desc Server entry point
  */
 
@@ -22,9 +22,9 @@ app.use(
   helmet.contentSecurityPolicy({
     useDefaults: true,
     directives: {
-      "script-src": ["'self' unpkg.com", "'unsafe-eval' unpkg.com"],
-      "font-src": ["'self' fonts.googleapis.com fonts.gstatic.com unpkg.com"],
-      "style-src": ["'self' fonts.googleapis.com unpkg.com"],
+      "script-src": ["'self'", "'unsafe-eval'"],
+      "font-src": ["'self'"],
+      "style-src": ["'self'"],
     },
   })
 );
