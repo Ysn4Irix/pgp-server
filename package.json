@@ -1,0 +1,23 @@
+{
+  "name": "express-api",
+  "description": "a express api generator",
+  "version": "1.0.0",
+  "private": true,
+  "author": "Ysn4Irix",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "devStart": "nodemon server.js"
+  },
+  "dependencies": {
+    "axios": "^0.27.2",
+    "dotenv": "*",
+    "express": "*",
+    "express-rate-limit": "*",
+    "express-slow-down": "*",
+    "helmet": "*",
+    "joi": "*",
+    "morgan": "*",
+    "openpgp": "*"
+  }
+}
